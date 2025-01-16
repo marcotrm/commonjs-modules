@@ -1,6 +1,6 @@
-function myName (firstName, lastName){
-    {
-    return firstName, lastName;
-    };
+function createName (firstName, lastName){
+    
+    return {firstName, 
+            lastName};
 }
-module.exports = myName();
+module.exports = createName();
